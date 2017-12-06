@@ -11,7 +11,7 @@ public class Math {
         int i = 1;
         while(num != 1) {
             i = i * num;
-            i--;
+            num--;
         }
         return i;
     }
